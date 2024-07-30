@@ -1,0 +1,337 @@
+/* Adicionando estilos globais na página*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+
+}
+
+/*Estilizando todo o corpo da página*/
+body{
+    background-color: #f8f7ff;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Estilizando a tag principal do site*/
+main{
+    width: 100%;
+    margin: 0 auto;
+}
+
+/*Estilizando tag do conteúdo principal*/
+article{
+    padding-top: 75px;
+}
+
+
+/* Adicionando estilo para todos os títulos da página*/
+.titulo h2{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+/* Estilizando o topo da página, o header*/
+.topo{
+    width: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    position: fixed;  
+    background-color: black;
+    color: white;
+    
+}
+
+/* Estilizando o bloco de informações do cabeçalho*/
+.info_topo{
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+    border-bottom: 0.5px solid black;
+
+}
+
+/* Estilizando o meu nome presente no header*/
+.info_topo h2{
+    font-size: 30px;
+    font-weight: 900;
+}
+
+
+/*Estilizando a lista de links do header*/
+.lista_site{
+    width: 40%;
+    margin-right: 40px;
+}
+
+/* Estilizando o bloco de lista*/
+.lista_site ul{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/*Estilizando toda a lista do header*/
+.lista_site ul li{
+    font-size: 17px;
+    color: black;
+    list-style: none;
+    font-weight: 800;
+
+}
+
+/* Estilizando os links presentes na lista*/
+.lista_site ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.lista_site ul li:hover{
+    border-bottom: 1px solid white;
+}
+
+/* Aplicando estilos iguais ao conteúdo sobre mim e ao portfólio*/
+.sobre_mim, .portfolio{
+    background-color: #f1bcf1;
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+}
+
+
+/* Estilizando tags para criar card de conteúdo, essas classes estão presentes no conteúdo sobre mim e no portfólio*/
+.cards{
+    max-width: 1024px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 0 100px 0;
+}
+
+/* Estilizando os cards das presentes no conteúdo sobre mim e no portfólio*/
+.card_img{
+    width: 50%;
+    display: flex;
+    height: 300px;
+    max-height: 300px;
+    text-align: center;
+    box-shadow: 2px 2px 20px -4px #000000;
+    justify-content: center;
+    
+}
+
+/* Estilizando todas as imagens dos cards*/
+.card_img img{
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+/*  Estilizando todos os cards que possuem textos*/
+.card_txt{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    max-height: 300px;
+    text-align: center;
+    box-shadow: 2px 2px 20px -4px #000000;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: justify;
+    background-color: #fff;
+}
+
+/* Estilizando todos os titulos e deixando centralizados*/
+.titulo{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+}
+
+/* ajustando margem abaixo para separar as formação e portfolio*/
+.formacao{
+    margin: 100px 0 100px 0;
+}
+
+/*Estilizando paragráfo referente sobre o meu curso em "Formação"*/
+.txt_curso{
+    text-align: justify;
+    margin: 40px 40px 0 40px;
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif ;
+    color: black;
+    
+}
+
+/*Estilizando a imagem do tema "Formação*/
+.imgCurso{
+    width: 25%;
+    height: auto;
+    border-radius: 25px;
+    box-shadow: 5px 5px 50px 10px rgb(7, 7, 7);
+    border: 1px solid black;
+    float: left;
+    margin: 15px;
+    clear: right;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+
+
+.txt_portfolio{
+    width: 1024px;
+    font-size: 20px;
+    margin-top: 20px;
+    text-align: justify;
+    font-weight: 500;
+}
+
+.link_projeto{
+    margin-top: 10px;
+    display: flex;
+}
+
+.contato{
+    margin-top: 5rem;
+}
+
+/* Estiliando o formulário por completo, de forma global*/
+.formulario{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+
+/* alterando o tamanho padrão do form*/
+.formulario form{
+    width: 40%;
+}
+
+/* Estilizando a tag label de forma geral, assim todas as label terão a mesma estilização*/
+.formulario label{
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(3, 119, 155);
+}
+
+/* Definindo o tamanho e margin de cada input*/
+.areaEntrada{
+    width: 100%;
+    margin-top: 2rem;
+}
+
+/*Estilizando os inputs, como os dois possuem a mesma classe, então os dois inputs, terão a mesma estilização*/
+.entrada{
+    margin: 0 auto;
+    height: 3rem;
+    width: 100%;
+    border-radius: 8px;
+    border: none;
+    border-bottom: 1px solid black;
+    background-color: rgb(218, 212, 215);
+    color: white;
+}
+
+/* adicionando animação, onde quando o input estiver em foco, ira alterar a cor da sua borda*/
+.entrada:focus{
+        outline: none;
+        border: 1px solid rgb(0, 190, 248);
+}
+
+/* Alterando o tamanho e margin da tag select de forma geral*/
+.areaSelecao{
+    width: 100%;
+    margin-top: 2rem;
+}
+
+/* Estilizando a tag  Select*/
+.selecione{
+    margin: 0 auto;
+    height: 3rem;
+    width: 100%;
+    border-radius: 8px;
+    border: none;
+    border-bottom: 1px solid black;
+    background-color: rgb(218, 212, 215);
+    color: white;
+    margin-bottom: 3rem;
+}
+
+/* Alterando tamanho e margin da tag textarea*/
+.areaMensagem{
+    width: 100%;
+    margin-top: 2rem;
+}
+
+/* Estilizando o textarea */
+.areaMensagem textarea{
+    width: 100%;
+    background-color: rgb(218, 212, 215);
+    border: none;
+    color: white;
+}
+
+/* adicionando animação, onde quando o textarea estiver em foco, ira alterar a cor da sua borda*/
+.areaMensagem textarea:focus{
+    outline: none;
+    border: 1px solid rgb(0, 190, 248);
+}
+
+
+/*Estilizando o botão*/
+.btn{
+    margin-top: 4rem;
+    margin-bottom: 10rem;
+    width: 100%;
+    height: auto;
+    background-color: rgb(0, 190, 248) ;
+    border: none;
+    font-size: 16px;
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+
+/* adicionando efeito hover ao botão*/
+.btn:hover{
+    background-color:  rgb(0, 135, 177) ;
+    cursor: pointer;
+}
+
+
+/*Deixa a primeira letra com espaçamento a esquerda.*/
+p::first-letter{
+    margin-left: 40px;
+}
+
+.footer{
+    width: 100%;
+    height: 30px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

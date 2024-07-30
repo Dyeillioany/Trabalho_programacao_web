@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfólio</title>
+</head>
+<body>
+
+    <!-- construindo a tag principal utilizando a tag main-->
+    <main>
+        <!-- Construindo o cabeçalho com header-->
+        <header class="topo">
+            <div class="info_topo">
+                <h2>Dyeillioany Ferreira</h2>
+                <nav class="lista_site">
+                    <ul>
+                        <li><a href="#sobremim">Sobre mim</a></li>
+                        <li><a href="#formacao">Formação</a></li>
+                        <li><a href="#portfolio">Portfólio</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <!-- Tag dos conteúdos principais utilizando a tag article-->
+        <article>
+
+            <!--Seção construida com o título 'Sobre Mim'-->
+            <section id="sobremim" class="sobre_mim">
+                <!-- adicionando um titulo-->
+                 <div class="titulo">
+                     <h2  >Sobre Mim</h2>
+                 </div>
+
+                <!-- Cards com imagens e textos referentes sobre mim-->
+                <div class="cards">
+                    <div class="card_img">
+                        <img src="./image/minhafoto.jpeg" alt="imagem sobre mim">
+                    </div>
+                    <div class="card_txt">
+                        <p>Nascido no interior de Rondônia, em uma cidade pequena, agradável e muito calma, defini boa parte da minha personalidade nesse ambiente. Atualmente, estou no 2º semestre da faculdade de Análise e Desenvolvimento de Sistemas (ADS) e faço um estágio na área de suporte, que despertou bastante meu interesse. Ainda não decidi exatamente qual das muitas áreas de TI quero me especializar, mas há algum tempo me interessei bastante por banco de dados e redes de computadores, então provavelmente será algo relacionado a essas áreas. Essa é um pouco da minha jornada pessoal e profissional.</p>
+                    </div>
+                    <div class="card_txt">
+                        <p>Sou uma pessoa com poucos hobbies, desde meus 10 anos ingressei no mundo da música, começando a tocar na igreja onde frequentava, depois de um tempo evolui para o teclado e atualmente comecei a aprender piano, gosto bastante de músicas clássicas em específico. Também descobri um interesse por croche para passar o tempo e desestressar (as vezes estressar quando um ponto sai errado). Por último um dos mais hobbies com toda certeza mais bonito, pintura, tenho um gosto por pinturas de paisagens com arvores e um céu estrelado, um talento ainda em desenvolvimento.</p>
+                    </div>
+                    <div class="card_img">
+                        <img src="./image/cerrar-pintura-mano-casa_23-2148943637.avif" alt="imagem_hobby">
+                    </div>
+                </div>
+            </section>
+
+             <!--Seção construida com o título 'Formação'-->
+            <section id="formacao" class="formacao">
+                <!-- adicionando um titulo-->
+                <div class="titulo">
+                    <h2  >Formação</h2>
+                </div>
+
+                <!--Imagem ilustrativa sobre o meu curso-->
+                <img class="imgCurso" src="./image/Analise e Desenvolvimento de Sistemas curso, carreira e salario.webp" alt="imagem ads" >
+
+                <!-- Texto explicativo sobre a minha formação-->
+                <p class="txt_curso">Estou cursando Análise e Desenvolvimento de Sistemas (ADS) e essa jornada acadêmica tem sido uma experiência maravilhosa. A ADS é uma área da computação que se dedica à avaliação, projeto, teste, implementação e aprimoramento de sistemas de informação. Neste curso, estou tendo a chance de adquirir diversos conceitos e técnicas cruciais para a criação de software de excelência.
+                    Desde a parte de requisição, levantamento de requisitos, até a implantação de um sistema. Uma das peculiaridades da ADS é sua utilização em diversas áreas, indo desde a indústria de tecnologia até a área médica e financeira. Essa habilidade abre diversas possibilidades de trabalho, o que me estimula a me aprofundar ainda mais nessa área. Estou aprendendo a importância da comunicação eficiente e do trabalho em grupo, que serão fundamentais ao longo da minha trajetória profissional. Resumindo, minha jornada como ADS tem sido desafiadora e gratificante até agora. Estou ansiosa para continuar a aprender e crescer neste campo dinâmico e emocionante <br><br>
+
+                Idioma: Português e inglês básico
+                </p>
+            </section>
+
+             <!--Seção construida com o título 'Portfolio'-->
+            <section id="portfolio" class="portfolio">
+                <!-- adicionando um titulo-->
+                <div class="titulo">
+                    <h2  >Portfólio</h2>
+                </div>
+                <p class="txt_portfolio">Eu gostaria de apresentar dois dos meus principais projeto produzido, onde foi desenvolvido pequenos sistemas interativos, onde o usuário pode realizar uma entrar de dados e aguardar uma saída como resposta, esses projetos não foram produzidos com uma interface, é mais voltado para entrada e saída de dados e a prática da lógica de programação</p>
+                
+                <!-- Cards com imagens e textos referente aos portfolios-->
+                <div class="cards">
+                    <div class="card_img">
+                        <img src="./image/sinal-de-neon-quiz_1262-19629.avif" alt="imagem_quiz">
+                    </div>
+                    <div class="card_txt" >
+                        <p>O projeto "Quiz Interativo em Java" é um jogo de perguntas e respostas desenvolvido em Java. Este jogo tem como objetivo testar os conhecimentos dos jogadores em diversas áreas através de uma série de perguntas com respostas pré-definidas. Neste Quiz, o computador imprime uma pergunta e logo em seguida solicita para que o usuário insira a resposta da pergunta, quando o usuário inserir a resposta, o computador irá, através de uma estrutura de decisão, verificar se a resposta está certa ou errada e retornar o resultado para o usuário.</p>
+                        <p class="link_projeto"><a href="https://github.com/Dyeillioany/Quiz.git">Link para o projeto quiz em Java</a></p>
+                    </div>
+                    <div class="card_txt" >
+                        <p>O projeto "Calculadora de IMC em Python" é uma aplicação simples e eficiente desenvolvida em Python para calcular o Índice de Massa Corporal (IMC). O IMC é uma medida utilizada para determinar se uma pessoa está com o peso ideal em relação à sua altura. A calculadora recebe como entrada o peso e a altura do usuário e retorna o valor do IMC, além da sua classificação correspondente de acordo com os padrões estabelecidos pela Organização Mundial da Saúde (OMS).</p>
+                        <p class="link_projeto"><a href="https://github.com/Dyeillioany/IMC">Link para o projeto IMC em Python</a></p>
+                    </div>
+                    <div class="card_img">
+                        <img src="./image/IMC.jpg" alt="imagem_imc">
+                    </div>
+
+                </div>
+            </section>
+
+
+            <section class="contato" id="contato">
+                <!-- adicionando um titulo-->
+                <div class="titulo">
+                    <h2  >Contato</h2>
+                </div>
+        
+                <!--criando uma div para englobar todo o formulário-->
+                <div class=formulario>
+        
+                    <!--usando a tag form para criar formulário, como não ira enviar nada pra nenhum lugar, o atributo
+                    action permanecerá vazio.-->
+                    <form>
+        
+                        <!-- Criando div para englobar toda a parte do input e label para melhor estilização-->
+                        <div class="areaEntrada">
+                            <label for="name">Nome</label>
+                            <input type="name" id="name" class="entrada" placeholder="Digite seu nome">
+                        </div>
+        
+                        <!-- Criando div para englobar toda a parte do input e label para melhor estilização-->
+                        <div class="areaEntrada">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" class="entrada" placeholder="Digite seu Email">
+                        </div>
+        
+                        <!-- Criando div para englobar toda a parte do input e label para melhor estilização-->
+                        <div class="areaSelecao">
+                            <label for="selecione">Selecione</label>
+        
+                            <!-- Criando um tag select onde será possível selecionar entre as opções descritas nas tags option-->
+                            <select class="selecione" name="selecione">
+                                <option selected disabled value="">Selecione</option>
+                                <option value="0">Serviços</option>
+                                <option value="1">Contratos</option>
+                                <option value="2">Orçamentos</option>
+                                <option value="3">Outros</option>
+                            </select>
+                        </div>
+        
+                        <!-- Criando um div para englobar todo o textarea e sua label-->
+                        <div class="areaMensagem">
+                            <label for="areaTexto">Mensagem</label>
+                            <textarea name="areaTexto" id="areaTexto" cols="40" rows="20"></textarea>
+                        </div>
+        
+                        <!-- criando um botão e também uma função onclick para enviar-->
+                        <button class="btn" type="submit" >Enviar</button>
+                    </form>
+                </div>
+            </section>
+
+        </article>
+        <footer class="footer">Desenvolvido por Dyeillioany Ferreira</footer>
+    </main>
+</body>
+</html>
