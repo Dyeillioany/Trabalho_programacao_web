@@ -169,7 +169,7 @@ article{
     margin: 100px 0 100px 0;
 }
 
-/*Estilizando paragráfo referente sobre o meu curso em "Formação"*/
+/*Estilizando paragráfo referente sobre o meu curso em Formação*/
 .txt_curso{
     text-align: justify;
     margin: 40px 40px 0 40px;
@@ -179,7 +179,7 @@ article{
     
 }
 
-/*Estilizando a imagem do tema "Formação*/
+/*Estilizando imagens dos cards do conteúdo formação*/
 .imgCurso{
     width: 25%;
     height: auto;
@@ -194,7 +194,7 @@ article{
 }
 
 
-
+/* Estilizando os textos dos cards do portfolio*/
 .txt_portfolio{
     width: 1024px;
     font-size: 20px;
@@ -203,6 +203,8 @@ article{
     font-weight: 500;
 }
 
+
+/* Criando estilo somente para o link dos projetos*/
 .link_projeto{
     margin-top: 10px;
     display: flex;
@@ -212,7 +214,7 @@ article{
     margin-top: 5rem;
 }
 
-/* Estiliando o formulário por completo, de forma global*/
+/* Estilizando o formulário*/
 .formulario{
     width: 100%;
     display: flex;
@@ -222,25 +224,25 @@ article{
     margin-top: 2rem;
 }
 
-/* alterando o tamanho padrão do form*/
+/* Criando estilizando específico para o form*/
 .formulario form{
     width: 40%;
 }
 
-/* Estilizando a tag label de forma geral, assim todas as label terão a mesma estilização*/
+/* Estilizando todos os label do formulario*/
 .formulario label{
     font-size: 20px;
     font-weight: 700;
     color: rgb(3, 119, 155);
 }
 
-/* Definindo o tamanho e margin de cada input*/
+/* Estilizando tamanhos dos inputs*/
 .areaEntrada{
     width: 100%;
     margin-top: 2rem;
 }
 
-/*Estilizando os inputs, como os dois possuem a mesma classe, então os dois inputs, terão a mesma estilização*/
+/*Criando estilos para todos os inputs*/
 .entrada{
     margin: 0 auto;
     height: 3rem;
@@ -252,19 +254,19 @@ article{
     color: white;
 }
 
-/* adicionando animação, onde quando o input estiver em foco, ira alterar a cor da sua borda*/
+/* Criando animação específica para os inputs, onde quando em foco, irá alterar a cor da borda*/
 .entrada:focus{
         outline: none;
         border: 1px solid rgb(0, 190, 248);
 }
 
-/* Alterando o tamanho e margin da tag select de forma geral*/
+/* Estilizando a tag select referente ao tamanho e margem*/
 .areaSelecao{
     width: 100%;
     margin-top: 2rem;
 }
 
-/* Estilizando a tag  Select*/
+/* Criando estilo específico para a tag selec*/
 .selecione{
     margin: 0 auto;
     height: 3rem;
@@ -277,13 +279,13 @@ article{
     margin-bottom: 3rem;
 }
 
-/* Alterando tamanho e margin da tag textarea*/
+/* estilizando tamanho e margin do campo texto*/
 .areaMensagem{
     width: 100%;
     margin-top: 2rem;
 }
 
-/* Estilizando o textarea */
+/* Criando estilo específico para o campo de texto */
 .areaMensagem textarea{
     width: 100%;
     background-color: rgb(218, 212, 215);
@@ -291,7 +293,7 @@ article{
     color: white;
 }
 
-/* adicionando animação, onde quando o textarea estiver em foco, ira alterar a cor da sua borda*/
+/* Criando animação para o campo de texto, quando em foco irá alterar a cor da borda*/
 .areaMensagem textarea:focus{
     outline: none;
     border: 1px solid rgb(0, 190, 248);
@@ -312,18 +314,19 @@ article{
 }
 
 
-/* adicionando efeito hover ao botão*/
+/* Criando efeito para o botão, onde quando passar o botão por cima, irá alterar um pouco a cor*/
 .btn:hover{
     background-color:  rgb(0, 135, 177) ;
     cursor: pointer;
 }
 
 
-/*Deixa a primeira letra com espaçamento a esquerda.*/
+/*Deixando a primeira letra de todos os paragráfos com um espaçamento a esquerda*/
 p::first-letter{
     margin-left: 40px;
 }
 
+/*Criando estilo para o Rodapé*/
 .footer{
     width: 100%;
     height: 30px;

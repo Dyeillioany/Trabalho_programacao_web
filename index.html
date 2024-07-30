@@ -52,7 +52,7 @@
                 </div>
             </section>
 
-             <!--Seção construida com o título 'Formação'-->
+             <!--Construindo seção de Formação-->
             <section id="formacao" class="formacao">
                 <!-- adicionando um titulo-->
                 <div class="titulo">
@@ -70,7 +70,7 @@
                 </p>
             </section>
 
-             <!--Seção construida com o título 'Portfolio'-->
+             <!--Construindo seção Portfólio-->
             <section id="portfolio" class="portfolio">
                 <!-- adicionando um titulo-->
                 <div class="titulo">
@@ -105,30 +105,29 @@
                     <h2  >Contato</h2>
                 </div>
         
-                <!--criando uma div para englobar todo o formulário-->
+                <!--Criando div para o formulário-->
                 <div class=formulario>
         
-                    <!--usando a tag form para criar formulário, como não ira enviar nada pra nenhum lugar, o atributo
-                    action permanecerá vazio.-->
+                    <!--Criando tag forma para criação de formulário, ira ser criado sem nenhuma ação, pois não haverá envio de dados-->
                     <form>
         
-                        <!-- Criando div para englobar toda a parte do input e label para melhor estilização-->
+                        <!-- Criando div de input-->
                         <div class="areaEntrada">
                             <label for="name">Nome</label>
                             <input type="name" id="name" class="entrada" placeholder="Digite seu nome">
                         </div>
         
-                        <!-- Criando div para englobar toda a parte do input e label para melhor estilização-->
+                        <!-- Criando div de input-->
                         <div class="areaEntrada">
                             <label for="email">Email</label>
                             <input type="email" id="email" class="entrada" placeholder="Digite seu Email">
                         </div>
         
-                        <!-- Criando div para englobar toda a parte do input e label para melhor estilização-->
+                        <!-- Criando div de input-->
                         <div class="areaSelecao">
                             <label for="selecione">Selecione</label>
         
-                            <!-- Criando um tag select onde será possível selecionar entre as opções descritas nas tags option-->
+                            <!-- Criando campo de select, onde haverá algumas opções a serem escolhidas pelo usuário-->
                             <select class="selecione" name="selecione">
                                 <option selected disabled value="">Selecione</option>
                                 <option value="0">Serviços</option>
@@ -138,19 +137,21 @@
                             </select>
                         </div>
         
-                        <!-- Criando um div para englobar todo o textarea e sua label-->
+                        <!-- Criando div para criação da área de texto-->
                         <div class="areaMensagem">
                             <label for="areaTexto">Mensagem</label>
                             <textarea name="areaTexto" id="areaTexto" cols="40" rows="20"></textarea>
                         </div>
         
-                        <!-- criando um botão e também uma função onclick para enviar-->
+                        <!-- Criando botão de envio de formulário (botão não possui ação)-->
                         <button class="btn" type="submit" >Enviar</button>
                     </form>
                 </div>
             </section>
 
         </article>
+
+        <!-- Construindo um rodapé com meu nome-->
         <footer class="footer">Desenvolvido por Dyeillioany Ferreira</footer>
     </main>
 </body>
